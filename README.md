@@ -50,3 +50,12 @@ ALL THE CONTENT IN THE YOUTUBE_VIDEOS TABLE in DB
 
 =====================================================
 
+AFTER CREATING DOCKER IMAGE AND SEETING UP MYSQL SERVER
+
+1. systemctl start mysqld
+2. django-admin startproject assignment
+3. git clone <clone_url>
+4. cd assignmen
+5. python manage.py runserver 0.0.0.0:<port>
+6. Attaching the Dockerfile
+
